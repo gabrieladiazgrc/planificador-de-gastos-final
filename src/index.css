@@ -1,7 +1,7 @@
 :root {
     --azul: #3b82f6;
     --blanco: #ffffff;
-    --gris-claro: #f5f5f5;
+    --gris-claro: #dadada;
     --gris: #94a3b8;
     --gris-oscuro: #64748b;
     --negro: #000;
@@ -9,7 +9,7 @@
 
 body {
     font-size: 1.6rem;
-    font-family: "Lato", sans-serif;
+    font-family: "Quicksand", sans-serif;
     background-color: var(--gris-claro);
 }
 
@@ -43,11 +43,11 @@ h2 {
     -moz-box-shadow: 0px 9px 10px -10px rgba(0, 0, 0, 0.51);
     background-color: var(--blanco);
     padding: 4rem;
-    border-radius: 1.2rem;
+    border-radius: 25px;
 }
 
 header {
-    background-color: var(--azul);
+    background: linear-gradient(90deg, #312ae9 0%, #2fd588 100%);
 }
 
 header h1 {
@@ -97,7 +97,7 @@ header h1 {
 .formulario input[type="text"],
 .formulario input[type="number"] {
     background-color: var(--gris-claro);
-    border-radius: 1rem;
+    border-radius: 25px;
     padding: 1rem;
     border: none;
     flex: 1;
@@ -105,7 +105,7 @@ header h1 {
 }
 
 .formulario input[type="submit"] {
-    background-color: #1048a4;
+    background: linear-gradient(90deg, #312ae9 0%, #2fd588 100%);
     border: none;
     padding: 1rem;
     text-align: center;
@@ -115,7 +115,7 @@ header h1 {
     text-transform: uppercase;
     font-size: 1.9rem;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 25px;
     transition: background-color 300ms ease;
 }
 
@@ -127,7 +127,7 @@ header h1 {
 }
 
 .formulario input[type="submit"]:hover {
-    background-color: #042a67;
+    background: linear-gradient(90deg, #201bb9 0%, #19a564 100%);
     cursor: pointer;
 }
 
@@ -135,7 +135,7 @@ header h1 {
     flex: 1;
     padding: 1rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 25px;
     text-align: center;
     background-color: var(--gris-claro);
 }
@@ -240,7 +240,7 @@ header h1 {
     color: var(--blanco);
     text-transform: uppercase;
     font-weight: 900;
-    border-radius: 1rem;
+    border-radius: 25px;
     transition-property: background-color;
     transition-duration: 300ms;
 }
@@ -270,7 +270,7 @@ main {
     flex: 1;
     padding: 1rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 25px;
     text-align: center;
     background-color: var(--gris-claro);
 }
